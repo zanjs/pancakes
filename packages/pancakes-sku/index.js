@@ -1,5 +1,5 @@
 
-import { arrayCombine } from '@pancakes/array'
+import Arr from '@pancakes/array'
 
 export default {
   tag: {
@@ -39,7 +39,7 @@ export default {
     skuKeys.forEach(skuKey => {
       const sku = data[skuKey]
       const skuKeyAttrs = skuKey.split(';')
-      const combArr = arrayCombine(skuKeyAttrs)
+      const combArr = Arr.arrayCombine(skuKeyAttrs)
       for (let j = 0; j < combArr.length; j++) {
         const key = combArr[j].join(';')
         if (SKUResult[key]) {
