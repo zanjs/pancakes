@@ -1,5 +1,20 @@
 {
-	"devDependencies": {
-		"lerna": "^2.8.0"
-	}
+  "name": "pancakes",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+		"push": "lerna publish",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zanjs/pancakes.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zanjs/pancakes/issues"
+  },
+  "homepage": "https://github.com/zanjs/pancakes#readme"
 }
