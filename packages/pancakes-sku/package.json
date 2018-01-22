@@ -17,5 +17,8 @@
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-preset-env": "^1.6.1"
+  },
+  "dependencies": {
+    "@pancakes/array": "0.0.1"
   }
 }
