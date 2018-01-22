@@ -18,5 +18,6 @@ const GetQueryString = (urlSearch, name) => {
 }
 
 export default {
-  GetRequest
+  GetRequest,
+  GetQueryString
 }
