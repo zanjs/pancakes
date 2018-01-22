@@ -1,0 +1,20 @@
+{
+  "name": "@pancakes/url",
+  "version": "0.0.0",
+  "description": "",
+  "main": "./lib",
+  "scripts": {
+    "install": "npm run build",
+    "build": "babel index.js -d lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
+}
