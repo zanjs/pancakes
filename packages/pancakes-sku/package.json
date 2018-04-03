@@ -19,6 +19,6 @@
     "babel-preset-env": "^1.6.1"
   },
   "dependencies": {
-    "@pancakes/array": "^0.0.2"
+    "@pancakes/array": "^0.0.3"
   }
 }
