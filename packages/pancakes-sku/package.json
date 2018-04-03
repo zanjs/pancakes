@@ -1,11 +1,11 @@
 {
   "name": "@pancakes/sku",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "",
   "main": "./lib",
   "scripts": {
     "install": "npm run build",
-    "build": "babel index.js -d lib",
+    "build": "node ./node_modules/babel-cli/bin/babel index.js -d lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "publishConfig": {
