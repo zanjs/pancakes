@@ -1,12 +1,11 @@
 {
   "name": "@pancakes/array",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "",
   "main": "./lib",
   "scripts": {
     "install": "npm run build",
-    "build": "node ./node_modules/babel-cli/bin/babel index.js -d lib",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node ./node_modules/babel-cli/bin/babel index.js -d lib"
   },
   "publishConfig": {
     "access": "public"
