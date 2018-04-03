@@ -1,10 +1,9 @@
 {
   "name": "@pancakes/sku",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "",
-  "main": "./lib",
+  "main": "./lib/index.js",
   "scripts": {
-    "postinstall": "npm run build",
     "build": "node ./node_modules/babel-cli/bin/babel index.js -d lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,6 +18,6 @@
     "babel-preset-env": "^1.6.1"
   },
   "dependencies": {
-    "@pancakes/array": "^0.0.5"
+    "@pancakes/array": "^0.0.6"
   }
 }
