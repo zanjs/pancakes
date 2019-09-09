@@ -1,0 +1,12 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "package.json",
+        "packages/pancakes-array/package.json",
+        "packages/pancakes-sku/package.json",
+        "packages/pancakes-url/package.json"
+      ]
+    }
+  }
+}
